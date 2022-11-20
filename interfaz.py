@@ -41,7 +41,7 @@ image = Image.open(os.path.join(OutModel_PATH2,'panel.png'))
 st.image(image)
 
 st.subheader('Nomenclature')
-st.write('Lx: Length of the square panels ')
+st.write('Lx: Length of the square panels 1 ')
 st.write('t: Thickness of the panels  ')
 st.write('rho_sx: Longitudinal reinforcement ratio ')
 st.write('rho_sy: Transverse reinforcement ratio ')
