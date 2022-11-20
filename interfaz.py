@@ -32,7 +32,7 @@ with open(model_file, 'rb') as f:
 
 st.title('Shear strength and Failure mode of Reinforced Concrete Membranes Predicted by ML Methods')
 st.subheader('Dimensional Parameters')
-st.sidebar.header('User Input Parameters')
+st.sidebar.header('User Input Parameters_')
 
 PROJECT_ROOT_DIR_Fig = "."
 OutModel_PATH2 = os.path.join(PROJECT_ROOT_DIR_Fig, "figures_interfaz")
