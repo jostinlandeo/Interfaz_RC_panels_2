@@ -166,11 +166,11 @@ reg_sca=pd.DataFrame((reg-m_reg)/s_reg,index=[0])
 cla_sca=pd.DataFrame((cla-m_cla)/s_cla,index=[0])
 
 ##Regression
-Load_pred_reg=loaded_model_reg.predict(reg_sca).item()
+Load_pred_reg=loaded_model_reg.predict(reg_sca.values).item()
 V_test=np.exp(Load_pred_reg)*reg[0,1]
 
 ##Classification  
-Load_pred_cla=loaded_model_cla.predict(cla_sca).item()
+Load_pred_cla=loaded_model_cla.predict(cla_sca.values).item()
 resultado=Load_pred_cla
 res=str()
 if resultado==0:
