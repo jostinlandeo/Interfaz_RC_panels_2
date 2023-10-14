@@ -22,7 +22,7 @@ PROJECT_ROOT_DIR = "."
 OutModel_PATH = os.path.join(PROJECT_ROOT_DIR, "model_output")
 
 #Recovering regression model
-model_file = os.path.join(OutModel_PATH, "final_model_RC_membrane_reg.pkl") #archivo
+model_file = os.path.join(OutModel_PATH, "final_model_RC_membrane_reg2222.pkl") #archivo
 with open(model_file, 'rb') as f:
     loaded_model_reg = pickle.load(f)
 
