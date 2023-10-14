@@ -1,6 +1,6 @@
-numpy==1.16.5
+numpy
 pandas
 scikit-learn
 streamlit
 xgboost
-scipy==1.7.3
+scipy
