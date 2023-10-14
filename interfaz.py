@@ -30,7 +30,7 @@ with open(model_file, 'rb') as f:
     loaded_model_cla = pickle.load(f)
 
 
-st.title('tilin strength and Failure mode of Reinforced Concrete Membranes Predicted by ML Methods')
+st.title('Shear strength and Failure mode of Reinforced Concrete Membranes Predicted by ML Methods')
 st.subheader('Dimensional Parameters')
 st.sidebar.header('User Input Parameters')
 
