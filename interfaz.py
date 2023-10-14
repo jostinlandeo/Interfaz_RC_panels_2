@@ -1,9 +1,11 @@
 import streamlit as st
 import pandas as pd
 from pickle import load
+#import joblib
 import pickle
 import numpy as np
 import math
+#import matplotlip
 from PIL import Image
 import os
 from sklearn.preprocessing import StandardScaler
