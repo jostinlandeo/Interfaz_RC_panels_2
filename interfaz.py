@@ -27,7 +27,7 @@ with open(model_file, 'rb') as f:
     loaded_model_reg = pickle.load(f)
 
 #Recovering classifcation model
-model_file = os.path.join(OutModel_PATH, "final_model_RC_membrane_class2222.pkl")#archivo
+model_file = os.path.join(OutModel_PATH, "final_model_RC_membrane_class.pkl")#archivo
 with open(model_file, 'rb') as f:
     loaded_model_cla = pickle.load(f)
 
