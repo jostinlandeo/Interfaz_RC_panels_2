@@ -32,7 +32,8 @@ with open(model_file, 'rb') as f:
     loaded_model_cla = pickle.load(f)
 
 
-st.title('Shear strength and Failure mode of Reinforced Concrete Membranes Predicted by ML Methods')
+st.title('Over-sampling for data augmentation in data-driven models for the shear strength of RC membranes')
+#st.title('Shear strength and Failure mode of Reinforced Concrete Membranes Predicted by ML Methods')
 st.subheader('Dimensional Parameters')
 st.sidebar.header('User Input Parameters')
 
